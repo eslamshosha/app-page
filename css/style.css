@@ -467,8 +467,8 @@ html[dir=ltr] .about-section::after{
 }
 .float-img {
     position: absolute;
-    top: 46%;
-    left: 50.2%;
+    top: 46.3%;
+    left: 50.3%;
     transform: translate(-50%, -50%);
     width: 18.4%;
     height: 97.7%;
