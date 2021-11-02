@@ -205,6 +205,13 @@ header {
 .lang-section .lang-word:hover{
     color: #f57f17;
 }
+.lang-section{
+    display: flex;
+    align-items: center;
+}
+.lang-section img{
+    margin-inline-end: 5px;
+}
 /*                          header section                     */
 /*                           main                   */
 main{
