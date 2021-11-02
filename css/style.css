@@ -756,7 +756,7 @@ html[dir=rtl] .social-link:last-of-type {
         height: 98%;
     }
 }    
-@media (max-width: 992px){
+@media (max-width: 991px){
     /*                    menu in phone size                      */
     .dropdown,
     .dropdown-content{
