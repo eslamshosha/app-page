@@ -781,7 +781,7 @@ html[dir=rtl] .social-link:last-of-type {
         display: none;
     }
     .nav-header figure{
-        width: 80px;
+        width: 100px;
     }
     .nav-header{
         padding: 15px 0 18px;
@@ -939,6 +939,11 @@ html[dir=rtl] .social-link:last-of-type {
         height: 56px;
     }
     /*                               features                               */
+    /*                            download section                           */
+    .download-link:first-of-type {
+        margin-inline-end: 0;
+    }
+    /*                             download section                          */
     /*                               screen                              */
     .screen-section{
         margin-bottom: 60px;
@@ -1012,7 +1017,8 @@ html[dir=rtl] .social-link:last-of-type {
         height: 100%;
     }
     .download-link:first-of-type{
-        margin-right: 10px;
+        margin-inline-end: 10px;
+        margin-bottom: 0;
     }
     .about-download{
         display: flex;
