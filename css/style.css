@@ -454,7 +454,6 @@ html[dir=ltr] .about-section::after{
         font-size: 22px;
     }
     .download-link:first-of-type{
-        margin-inline-end: 0;
         margin-bottom: 10px;
     }
 }
