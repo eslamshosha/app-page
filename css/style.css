@@ -550,7 +550,7 @@ html[dir=ltr] .about-section::after{
 .screen-section .swiper-slide{
     opacity: 0.5;
     filter: grayscale(1);
-    filter: invert(32%) sepia(3%) saturate(3%) hue-rotate(314deg) brightness(50%) contrast(96%);
+    filter: invert(0%) sepia(3%) saturate(3%) hue-rotate(314deg) brightness(50%) contrast(96%);
     /* -webkit-transform: scale(.8);
             transform: scale(.8); */
     transition: all .3s ease-in-out;
