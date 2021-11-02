@@ -897,7 +897,7 @@ html[dir=rtl] .social-link:last-of-type {
     .main-content{
         margin-bottom: 30px;
         text-align: center;
-        padding-top: 60px;
+        padding-top: 30px;
     }
     .main-pargh{
         padding-inline-end: 0;
@@ -926,7 +926,13 @@ html[dir=rtl] .social-link:last-of-type {
         padding-inline-end: 0;
     }
     /*                               about                               */
+    .download-section{
+        margin-bottom: 60px;
+    }
     /*                               features                               */
+    .features-section{
+        padding: 60px 0;
+    }
     .features-title{
         padding: 0;
     }
@@ -935,6 +941,9 @@ html[dir=rtl] .social-link:last-of-type {
     }
     /*                               features                               */
     /*                               screen                              */
+    .screen-section{
+        margin-bottom: 60px;
+    }
     .screen-title{
         padding: 0;
     }
@@ -952,6 +961,9 @@ html[dir=rtl] .social-link:last-of-type {
     }
     /*                               screen                              */
     /*                               footer                              */
+    footer{
+        padding: 50px 0 30px;
+    }
     .first-footer {
         text-align: center;
         padding-inline-end: 0;
@@ -985,6 +997,34 @@ html[dir=rtl] .social-link:last-of-type {
 @media (max-width: 420px){
     .features-box .features-h{
         font-size: 18px;
+    }
+    .downlaod-cont{
+        flex-direction: column;
+    }
+    .download-h{
+        margin-bottom: 15px;
+    }
+    .download-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .download-link{
+        max-width: 140px;
+        height: 100%;
+    }
+    .download-link:first-of-type{
+        margin-right: 10px;
+    }
+    .about-download{
+        display: flex;
+        justify-content: center;
+    }
+    .about-link{
+        max-width: 140px;
+        height: 100%;
+    }
+    .about-link:first-of-type{
+        margin-right: 10px;
     }
 }
 /*                                    media query                                    */
