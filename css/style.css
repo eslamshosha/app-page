@@ -1001,7 +1001,6 @@ html[dir=rtl] .social-link:last-of-type {
         margin-bottom: 10px;
     }
     .about-link:first-of-type{
-        margin-inline-end: 0;
         margin-bottom: 10px;
     }
 }   
@@ -1014,6 +1013,7 @@ html[dir=rtl] .social-link:last-of-type {
     }
     .download-h{
         margin-bottom: 15px;
+        text-align: center;
     }
     .download-btn{
         display: flex;
@@ -1034,9 +1034,6 @@ html[dir=rtl] .social-link:last-of-type {
     .about-link{
         max-width: 140px;
         height: 100%;
-    }
-    .about-link:first-of-type{
-        margin-right: 10px;
     }
 }
 /*                                    media query                                    */
